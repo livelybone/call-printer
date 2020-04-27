@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CallPrinter</title>
+    <script src="https://cdn.jsdelivr.net/npm/@babel/polyfill@7.8.7/dist/polyfill.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/base64-blob"></script>
+    <script src="../lib/umd/index.js"></script>
+    <style>
+        html {
+            font-size: 16px;
+        }
+        /*Show header footer When Print*/
+        @media print {
+            img {
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="module">
+    1
+    <img src="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=46e4c31277899e5178db32127297f50b/0823dd54564e9258a21796019082d158ccbf4e39.jpg"
+         alt="">
+    <button onclick="print()">打印</button>
+    <iframe src="/" frameborder="0" id="iframe"></iframe>
+</div>
+
+<script>
+var module = document.getElementById('module')
+// do something ...
+// CallPrinter.bindery.makeBook({ content: module })
+function print() {
+  // CallPrinter.callPrinter(module)
+  CallPrinter.callPrinter('<img src="./sample.jpeg" style="width: 100%;">')
+}
+</script>
+</body>
+</html>
