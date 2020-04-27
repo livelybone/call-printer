@@ -63,9 +63,13 @@ export interface CallPrinterOptions {
 }
 
 /**
- * @param { string | Element} [content]     打印的内容。
+ * @param { string | Element} [content]     the content you want print.
+ *
  *                                          如果值类型为元素节点，将打印对应节点
+ *                                          if content is an Element, it will print this element;
+ *
  *                                          如果值类型为字符串，将打印解析得到的 html
+ *                                          else if content is a string, it will print this string as a html file.
  *
  * @param { CallPrinterOptions } [options]
  * */

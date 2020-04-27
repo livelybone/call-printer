@@ -8,7 +8,7 @@
 
 [English Document](./README.md)
 
-A tool for easily customize you content to call printer
+A tool for easily customize you content to call printer in browser
 
 ## repository
 https://github.com/livelybone/call-printer.git

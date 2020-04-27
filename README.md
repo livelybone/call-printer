@@ -8,7 +8,7 @@
 
 [中文文档](./README-CN.md)
 
-A tool for easily customize you content to call printer
+A tool for easily customize you content to call printer in browser
 
 ## repository
 https://github.com/livelybone/call-printer.git
