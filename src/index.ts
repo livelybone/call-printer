@@ -10,7 +10,7 @@ export function stringifyStyle(styleObj: CSSStyleDeclaration) {
   return Object.keys(styleObj)
     .reduce((pre, styleName) => {
       const style = styleObj[styleName as any]
-      return style && !/^\d+$/.test(styleName)
+      return style !== undefined && style !== null && !/^\d+$/.test(styleName)
         ? `${pre}${toHyphenCase(styleName)}:${style};`
         : pre
     }, '')
