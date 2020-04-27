@@ -1,7 +1,6 @@
 # call-printer
 [![NPM Version](http://img.shields.io/npm/v/call-printer.svg?style=flat-square)](https://www.npmjs.com/package/call-printer)
 [![Download Month](http://img.shields.io/npm/dm/call-printer.svg?style=flat-square)](https://www.npmjs.com/package/call-printer)
-![gzip with dependencies: kb](https://img.shields.io/badge/gzip--with--dependencies-kb-brightgreen.svg "gzip with dependencies: kb")
 ![typescript](https://img.shields.io/badge/typescript-supported-blue.svg "typescript")
 ![pkg.module](https://img.shields.io/badge/pkg.module-supported-blue.svg "pkg.module")
 

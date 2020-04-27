@@ -1,6 +1,6 @@
 {
   "name": "call-printer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A tool for easily customize you content to call printer",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
@@ -22,6 +22,7 @@
     "url": "https://github.com/livelybone/call-printer.git"
   },
   "keywords": [
+    "call printer",
     "printer",
     "browser",
     "print",
