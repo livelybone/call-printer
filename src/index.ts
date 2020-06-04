@@ -37,7 +37,7 @@ export function stringifyAttrs(
 }
 
 export function stringifyNode(el: ChildNode) {
-  if (el.nodeName === '#text') return el.nodeValue || ''
+  if (el.nodeName === '#text' || el.nodeName === '#comment') return el.nodeValue || ''
 
   const styleStr = stringifyStyle(getStyleObj(el as Element))
   const attrs = stringifyAttrs(el as Element, { style: styleStr })
