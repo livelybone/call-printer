@@ -1,6 +1,6 @@
 {
   "name": "call-printer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A tool for easily customize you content to call printer in browser",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
